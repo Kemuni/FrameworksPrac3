@@ -1,0 +1,15 @@
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/bin/Debug/net8.0/FrameworksPrac3
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/bin/Debug/net8.0/FrameworksPrac3.deps.json
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/bin/Debug/net8.0/FrameworksPrac3.runtimeconfig.json
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/bin/Debug/net8.0/FrameworksPrac3.dll
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/bin/Debug/net8.0/FrameworksPrac3.pdb
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.AssemblyInfoInputs.cache
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.AssemblyInfo.cs
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.csproj.CoreCompileInputs.cache
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.sourcelink.json
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.dll
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/refint/FrameworksPrac3.dll
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.pdb
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/FrameworksPrac3.genruntimeconfig.cache
+/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/Debug/net8.0/ref/FrameworksPrac3.dll
