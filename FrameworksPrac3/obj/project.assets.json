@@ -925,11 +925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/FrameworksPrac3.csproj",
+      "projectUniqueName": "/Users/dima/RiderProjects/FrameworksPrac_3/FrameworksPrac3/FrameworksPrac3.csproj",
       "projectName": "FrameworksPrac3",
-      "projectPath": "/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/FrameworksPrac3.csproj",
+      "projectPath": "/Users/dima/RiderProjects/FrameworksPrac_3/FrameworksPrac3/FrameworksPrac3.csproj",
       "packagesPath": "/Users/dima/.nuget/packages/",
-      "outputPath": "/Users/dima/RiderProjects/FrameworksPrac3/FrameworksPrac3/obj/",
+      "outputPath": "/Users/dima/RiderProjects/FrameworksPrac_3/FrameworksPrac3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dima/.nuget/NuGet/NuGet.Config"

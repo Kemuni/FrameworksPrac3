@@ -8,5 +8,9 @@ public interface IProductRepository
 
     Item? GetById(Guid id);
 
+    int GetCount();
+
+    bool DeleteById(Guid id);
+
     Item Create(string name, decimal price);
 }

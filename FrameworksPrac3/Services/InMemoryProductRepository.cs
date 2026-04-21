@@ -15,6 +15,13 @@ public sealed class InMemoryProductRepository : IProductRepository
     public Item? GetById(Guid id)
         => _items.TryGetValue(id, out var item) ? item : null;
 
+    public int GetCount() => _items.Count;
+
+    public bool DeleteById(Guid id)
+    {
+        return _items.TryRemove(id, out _);
+    }
+
     public Item Create(string name, decimal price)
     {
         var id = Guid.NewGuid();

@@ -120,6 +120,15 @@ app.MapGet("/api/items/by-id/{id:guid}", (Guid id, IProductRepository repo, AppO
 })
 .RequireRateLimiting("read");
 
+app.MapGet("/api/items/counts", (IProductRepository repo, AppOptions appOptions) =>
+{
+    var itemCounts = repo.GetCount();
+    if (appOptions.Mode == AppMode.Учебный) Console.WriteLine($"{DateTime.Now:u} Было запрошено количество элементов");
+
+    return Results.Ok(itemCounts);
+})
+.RequireRateLimiting("read");
+
 app.MapPost("/api/items", (HttpContext ctx, CreateItemRequest request, IProductRepository repo, AppOptions appOptions) =>
 {
     if (string.IsNullOrWhiteSpace(request.Name))
@@ -139,6 +148,20 @@ app.MapPost("/api/items", (HttpContext ctx, CreateItemRequest request, IProductR
     ctx.Response.Headers.Location = location;
 
     return Results.Created(location, created);
+})
+.RequireRateLimiting("write");
+
+app.MapDelete("/api/items/by-id/{id:guid}", (Guid id, IProductRepository repo, AppOptions appOptions) =>
+{
+    var result = repo.DeleteById(id);
+    if (appOptions.Mode == AppMode.Учебный) Console.WriteLine($"{DateTime.Now:u} Было запрошено удаление элемента с Id {id}");
+    if (!result)
+    {
+        if (appOptions.Mode == AppMode.Учебный) Console.WriteLine($"{DateTime.Now:u} Элемент с Id {id} не был найден");
+        throw new ArgumentException("Элемент не найден");
+    }
+
+    return Results.Ok(result);
 })
 .RequireRateLimiting("write");
 
